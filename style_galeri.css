@@ -1,0 +1,15 @@
+/*warna untuk jumbotron*/
+.warna-bg{
+	background: linear-gradient(to right, rgba(91,134,229,.92), rgba(54,209,220,.92));
+	
+}
+.jumbotron-bg{
+	background-size: cover;
+	background:url(img/mesin.jpg);
+	background-size: 400px
+
+}
+.warna-bg2{
+	background: linear-gradient(to right, rgba(91,134,229,.92), rgba(54,209,220,.92));
+	height: 200px
+}
