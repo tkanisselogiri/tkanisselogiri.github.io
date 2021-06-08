@@ -320,18 +320,7 @@
         </div>
 
     </section>
-    <section>
-        <div class="row justify-content-center ">
-            <div class="col">
 
-                <p class="text-center">
-                    <script
-                        id="_wauck8">var _wau = _wau || []; _wau.push(["colored", "f2g3lc0h68", "ck8", "93c47d000000"]);</script>
-                    <script async src="//waust.at/co.js"></script>
-                </p>
-            </div>
-        </div>
-    </section>
 
     <!-- footer -->
 
@@ -341,6 +330,48 @@
         </p>
     </footer>
     <!-- akhir footer -->
+    <!-- Modal -->
+    <div class="modal fade" id="popUp" tabindex="-1" aria-labelledby="popUpLabel" aria-hidden="true">
+        <div class="row">
+            <div class="col">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close modal-tutup" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+
+                        </div>
+                        <div class="modal-body p-0">
+                            <div class="col">
+                                <div class="card kartu">
+                                    <img src="img/modal.jpeg" class="card-img-top" alt="...">
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir modal -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script>
+        // angka 500 dibawah ini artinya pesan akan muncul dalam 0,5 detik setelah document ready
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('#popUp').modal('show');
+            }, 500);
+        });
+        // angka 3000 dibawah ini artinya pesan akan hilang dalam 3 detik setelah muncul
+        // setTimeout(function () {
+        //     $('#popUp').modal('hide');
+        // }, 3000);
+    </script>
     <!-- script pendaftaran googlesheet -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxg5L9tqrYEdWbhF2qhhsnjCjJz7OceHofUXCnpGK3-_9T3Dc-FB-Vn93Q8Q1S0tVhtXg/exec'
